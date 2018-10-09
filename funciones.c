@@ -457,7 +457,7 @@ void funcionListar2( sClientes arrayClientes[], int cant)
     {
         for(a=i+1; a<cant; a++)
         {
-            if(stricmp(arrayClientes[i].nombre,arrayClientes[a].nombre))
+            if(stricmp(arrayClientes[i].nombre,arrayClientes[a].nombre)>0)
             {
                 aux2=arrayClientes[i];
                 arrayClientes[i]=arrayClientes[a];
